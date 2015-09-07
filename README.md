@@ -118,7 +118,7 @@ include_recipe 'yum-atomic'
 
 License & Authors
 -----------------
-- Author:: Brian Hays (<brian.hays@gmail.com>)
+- Author:: Brian Hays (<brian.hays@gmail.com>) :: [@hays_io](https://twitter.com/hays_io)
 
 ```text
 Copyright 2015, Brian Hays
