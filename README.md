@@ -2,7 +2,7 @@ yum-atomic Cookbook
 =================
 
 The yum-atomic cookbook takes over management of the repositoryids of
-the [atomic](https://updates.atomicorp.com/channels/mirrorlist/atomic/) repository (including popular RPM packages for [OSSEC](http://www.ossec.net/).
+the [atomic](https://updates.atomicorp.com/channels/mirrorlist/atomic/) repository (including popular RPM packages for [OSSEC](http://www.ossec.net/)).
 It allows attribute manipulation of `atomic`, and `atomic-test`
 repositories.
 
