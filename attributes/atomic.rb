@@ -8,7 +8,7 @@ case node['platform']
 when 'fedora'
   default['yum']['atomic']['mirrorlist'] = 'http://updates.atomicorp.com/channels/mirrorlist/atomic/fedora-$releasever-$basearch'
   default['yum']['atomic']['description'] = 'Fedora Core $releasever - atomicrocketturtle.com'
-when 'redhat', 'centos'
+when 'redhat', 'centos', 'scientific'
   default['yum']['atomic']['mirrorlist'] = 'http://updates.atomicorp.com/channels/mirrorlist/atomic/centos-$releasever-$basearch'
   default['yum']['atomic']['description'] = 'CentOS / Red Hat Enterprise Linux $releasever - atomicrocketturtle.com'
 else
