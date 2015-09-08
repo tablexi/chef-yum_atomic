@@ -11,6 +11,4 @@ when 'fedora'
 when 'redhat', 'centos', 'scientific'
   default['yum']['atomic']['mirrorlist'] = 'https://updates.atomicorp.com/channels/mirrorlist/atomic/centos-$releasever-$basearch'
   default['yum']['atomic']['description'] = 'CentOS / Red Hat Enterprise Linux $releasever - atomicrocketturtle.com'
-else
-  fail "Unsupported platform #{node['platform']}. Please review the cookbook requirements."
 end
