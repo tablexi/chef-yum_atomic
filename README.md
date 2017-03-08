@@ -10,8 +10,8 @@ repositories.
 
 Requirements
 ------------
-* Chef 11 or higher
-* Depends on yum cookbook version 3.2 or higher and yum-epel
+* Chef 12.1 or higher
+* Depends on yum-epel
 
 Platform Support
 ----------------
