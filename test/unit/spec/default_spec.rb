@@ -11,8 +11,8 @@ describe 'yum-atomic::default' do
         :platform => 'centos',
         :version => '6.6'
       ) do |node|
-        node.set['yum']['atomic']['managed'] = true
-        node.set['yum']['atomic-testing']['managed'] = true
+        node.normal['yum']['atomic']['managed'] = true
+        node.normal['yum']['atomic-testing']['managed'] = true
       end.converge(described_recipe)
     end
 
