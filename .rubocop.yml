@@ -13,6 +13,9 @@ MethodLength:
 LineLength:
   Enabled: false
 
+BlockLength:
+  Enabled: false
+
 HashSyntax:
   Enabled: false
   EnforcedStyle: hash_rockets

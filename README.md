@@ -1,7 +1,7 @@
 yum-atomic Cookbook
 =================
 
-[![Cookbook Version](https://img.shields.io/cookbook/v/yum-atomic.svg)](https://supermarket.chef.io/cookbooks/yum-atomic)
+[![Build Status](https://travis-ci.org/brianhays/yum-atomic.svg?branch=master)](https://travis-ci.org/brianhays/yum-atomic) [![Cookbook Version](https://img.shields.io/cookbook/v/yum-atomic.svg)](https://supermarket.chef.io/cookbooks/yum-atomic)
 
 The yum-atomic cookbook takes over management of the repositoryids of
 the [atomic](https://updates.atomicorp.com/channels/mirrorlist/atomic/) repository (including popular RPM packages for [OSSEC](http://www.ossec.net/)).

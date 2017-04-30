@@ -13,3 +13,7 @@ supports 'fedora'
 
 depends 'compat_resource', '>= 12.14.6'
 depends 'yum-epel'
+
+source_url       'https://github.com/brianhays/yum-atomic'
+issues_url       'https://github.com/brianhays/yum-atomic/issues'
+chef_version '>= 12.1' if respond_to?(:chef_version)
