@@ -1,5 +1,5 @@
 default['yum']['atomic-testing']['repositoryid'] = 'atomic-testing'
-default['yum']['atomic-testing']['gpgkey'] = %w(https://www.atomicorp.com/RPM-GPG-KEY.art.txt https://www.atomicorp.com/RPM-GPG-KEY.atomicorp.txt)
+default['yum']['atomic-testing']['gpgkey'] = %w[https://www.atomicorp.com/RPM-GPG-KEY.art.txt https://www.atomicorp.com/RPM-GPG-KEY.atomicorp.txt]
 default['yum']['atomic-testing']['gpgcheck'] = true
 default['yum']['atomic-testing']['enabled'] = false
 default['yum']['atomic-testing']['managed'] = false

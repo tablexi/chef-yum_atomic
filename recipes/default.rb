@@ -19,7 +19,7 @@
 
 include_recipe 'yum-epel' if platform_family?('rhel')
 
-%w(atomic atomic-testing).each do |repo|
+%w[atomic atomic-testing].each do |repo|
   if node['yum'][repo]['managed']
     if node['yum'][repo]['baseurl'].nil? && node['yum'][repo]['mirrorlist'].nil?
       raise "The node['yum']['#{repo}'] baseurl and mirrorlist attributes are blank. The #{node['platform']} platform is probably unsupported by yum-atomic."
