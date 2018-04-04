@@ -5,6 +5,9 @@ default['yum']['atomic-testing']['enabled'] = false
 default['yum']['atomic-testing']['managed'] = false
 
 case node['platform']
+when 'amazon'
+  default['yum']['atomic']['mirrorlist'] = 'https://updates.atomicorp.com/channels/mirrorlist/atomic-testing/amazon-2-x86_64'
+  default['yum']['atomic']['description'] = 'Atomicorp Amazon Linux - atomic-testing'
 when 'fedora'
   default['yum']['atomic-testing']['mirrorlist'] = 'https://updates.atomicorp.com/channels/mirrorlist/atomic-testing/fedora-$releasever-$basearch'
   default['yum']['atomic-testing']['description'] = 'Fedora Core $releasever - atomicrocketturtle.com - (Testing)'
