@@ -22,6 +22,10 @@ platforms:
   driver:
     image: centos:7
 
+- name: amazonlinux
+  driver:
+    image: amazonlinux:2017.09
+
 suites:
 - name: default
   run_list:
